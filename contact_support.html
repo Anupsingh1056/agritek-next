@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Support – AgriSmart Clone</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Agri<span>Smart</span></a>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="features.html">Features</a>
+                <a href="farmers.html">Farmers</a>
+                <a href="growers.html">Growers</a>
+                <a href="about.html">About</a>
+                <a href="contact_sales.html">Contact Sales</a>
+                <a href="contact_support.html" class="active">Contact Support</a>
+                <a href="#" class="login-btn">Login</a>
+            </nav>
+        </div>
+    </header>
+    <section class="page-hero">
+        <div class="container">
+            <h1>Need Help?</h1>
+            <p>Get in touch with our customer support team. We're here to help with any questions or issues.</p>
+        </div>
+    </section>
+    <section class="contact-form-section">
+        <div class="container">
+            <form id="supportForm" class="contact-form">
+                <div class="form-group">
+                    <label for="supportName">Name</label>
+                    <input type="text" id="supportName" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="supportEmail">Email</label>
+                    <input type="email" id="supportEmail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="supportMessage">Message</label>
+                    <textarea id="supportMessage" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-btn">Send Message</button>
+            </form>
+            <div id="supportSuccess" class="success-message" hidden>
+                Thank you for reaching out! Our support team will be in touch shortly.
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <h4>AgriSmart Clone</h4>
+                <p>© 2025 AgriSmart Clone. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <a href="about.html">About</a>
+                <a href="contact_sales.html">Contact Sales</a>
+                <a href="contact_support.html">Contact Support</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
